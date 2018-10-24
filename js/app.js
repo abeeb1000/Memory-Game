@@ -29,8 +29,8 @@
        shuffleCards.forEach(function(item){
          deck.appendChild(item);
        });
-
 };
+
 shuffleCard(); //call  shuffleCard() init
 
 // Shuffle function from http://stackoverflow.com/a/2450976
@@ -47,7 +47,7 @@ function shuffle(array) {
     return array;
 };
 
-// Event Listener for all cards
+// Event Listener for all cards............
 deck.addEventListener("click", function(evt){
         let cardTarget = evt.target;
         clickCounter++;
@@ -89,7 +89,6 @@ span.addEventListener("click", function(){
  window.addEventListener("click", function(event){
      if (event.target == modal) {
          modal.style.display = "none";
-
      };
  });
 
@@ -132,6 +131,8 @@ function moves(){
 function removeStar(){
   if((move == 9) || (move == 17) || (move == 25) ){
     stars.removeChild(stars.childNodes[0]);
+  }else {
+    // do nothing!
   };
 };
 
@@ -145,7 +146,6 @@ function startTimer () {
 
    if (seconds >= 10){
      appendSeconds.innerHTML = seconds;
-
    };
 
    if (seconds > 60) {
