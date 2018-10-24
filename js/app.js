@@ -19,8 +19,8 @@
  let clickCounter = 0;
  let minutes = 0;
  let seconds = 0;
- let appendSeconds = document.getElementById("seconds")
- let appendminutes = document.getElementById("minutes")
+ let appendSeconds = document.getElementById("seconds");
+ let appendminutes = document.getElementById("minutes");
  let interval;
 
 //shuffle Cards and display it
@@ -33,7 +33,7 @@
 
 shuffleCard(); //call  shuffleCard() init
 
-// Shuffle function from http://stackoverflow.com/a/2450976
+// Shuffle function from
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
