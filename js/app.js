@@ -132,7 +132,7 @@ function removeStar(){
   if((move == 9) || (move == 17) || (move == 25) ){
     stars.removeChild(stars.childNodes[0]);
   }else {
-    // do nothing!
+    return// do nothing!
   };
 };
 
