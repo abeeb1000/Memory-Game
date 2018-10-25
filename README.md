@@ -17,7 +17,7 @@
 
 ## Screenshot on mobile of width 375px
 
-  ![mobile view](memoryGame\img\screenshot.png)
+  ![mobile view](memoryGame/img/screenshot.png)
 
 ## Built With
   - HTML
