@@ -8,7 +8,7 @@
   - visit it on your web browser
 
 ## Deployment
-  Take a look at the live version [here.....]()  
+  Take a look at the live version [here.....](https://abeeb1000.github.io/Memory-Game/)  
 
 ## How to play  
   - Load the game as stated above either on your on browser or live version
@@ -17,7 +17,7 @@
 
 ## Screenshot on mobile of width 375px
 
-  ![mobile view](img\screenshot.png)
+  ![mobile view](memoryGame\img\screenshot.png)
 
 ## Built With
   - HTML
